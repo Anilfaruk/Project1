@@ -13,7 +13,7 @@
   margin: 30px;
 }
 .top-nav {
-  text-align: center;
+  top: 10px;
   position: sticky;
   z-index: 1;
 }
@@ -45,9 +45,9 @@ p {
 div {
   text-align: center;
 }
-footer{
-    display: block;
-    text-align: center;
+footer {
+  display: block;
+  text-align: center;
 }
 img {
   display: inline;
@@ -57,17 +57,19 @@ img {
   border-radius: 15px;
   margin-top: 4rem;
 }
-.bottom-nav a {
-    display: inline-block;
+#projects img:hover {
+  opacity: 0.5;
 }
-form{
+.bottom-nav a {
+  display: inline-block;
+}
+form {
   text-align: center;
   display: block;
   height: 350px;
   padding-top: 1rem;
-
 }
-h4{
+h4 {
   padding-right: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -75,21 +77,19 @@ h4{
   padding-top: 1rem;
 }
 input {
-height: 51.2px;
-width: 50%;
-border: 2px solid #000000f8;
-padding: 13px;
-margin-bottom: 15px;
-cursor: text;
-border-radius: 10px;
-text-align: center;
-font-size: 18px;
-font-family: Arial, Helvetica, sans-serif;
-letter-spacing: 3px;
-
-
+  height: 51.2px;
+  width: 50%;
+  border: 2px solid #000000f8;
+  padding: 13px;
+  margin-bottom: 15px;
+  cursor: text;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
 }
-textarea{
+textarea {
   height: 150px;
   width: 50%;
   margin-bottom: 15px;
@@ -101,9 +101,8 @@ textarea{
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 3px;
-
 }
-button{
+button {
   height: 50px;
   width: 760px;
   width: 50%;
@@ -113,34 +112,33 @@ button{
   font-weight: 900;
   text-align: center;
   cursor: pointer;
-
 }
-.button:hover{
+.button:hover {
   height: 64px;
   letter-spacing: 5px;
 }
-.top-div{
+.top-div {
   height: 52px;
   margin: 15px;
   text-align: right;
 }
-.top-button{
-text-decoration: none;
-font-size: 20px;
-letter-spacing: 2px;
-background-color: rgb(0, 0, 0);
-color: white;
-border-radius: 10px;
-padding: 10px;
-width: 100px;
-font-weight: 700;
-margin-bottom: 10px;
-margin-right: 10px;
-display: inline-block;
-box-shadow: rgba(0, 0, 0, 0.5) 3px 6px 6px;
-outline: rgba(255, 255, 255, 0.792) solid 1px 
+.top-button {
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 2px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.5) 3px 6px 6px;
+  outline: rgba(255, 255, 255, 0.792) solid 1px;
 }
-.footer{
+.footer {
   text-decoration: none;
   color: black;
   padding: 1rem;
@@ -149,9 +147,18 @@ outline: rgba(255, 255, 255, 0.792) solid 1px
   font-weight: 700;
   letter-spacing: 3px;
 }
-.footer:hover{
+.footer:hover {
   text-decoration: underline;
 }
-.fa-brands{
+.fa-brands {
   padding-right: 7px;
+}
+.bottom-nav a {
+  text-decoration: none;
+  color: bisque;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 10px 10px 0px;
+  display: inline-block;
 }
